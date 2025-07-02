@@ -755,13 +755,17 @@ p {
         color: #888;
     }
     .contact-content {
-        gap: 1.5rem;
+        flex-direction: column !important;
+        align-items: stretch !important;
+        gap: 2.2rem;
     }
     .contact-info {
-        display: flex;
-        flex-direction: column;
-        gap: 1.2rem;
-        width: 100%;
+        width: 100% !important;
+        margin-bottom: 0.5rem;
+    }
+    .contact-form {
+        width: 100% !important;
+        margin-top: 0 !important;
     }
     .contact-item {
         display: flex;
@@ -807,10 +811,6 @@ p {
         padding: 1.5rem 0.8rem !important;
         box-shadow: 0 1px 4px rgba(0,0,0,0.04);
         border-radius: 14px;
-    }
-    .contact-content {
-        flex-direction: column !important;
-        align-items: stretch !important;
     }
     .form-group input, .form-group textarea, .form-group select {
         font-size: 1.15rem;
