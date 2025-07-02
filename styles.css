@@ -797,11 +797,20 @@ p {
         margin-bottom: 0;
     }
     .contact-form {
-        background: #fff;
-        border-radius: 14px;
+        width: 100% !important;
+        display: block !important;
+        z-index: 1;
+        overflow: visible !important;
+        background: #fff !important;
+        color: #222 !important;
+        margin-top: 1.5rem !important;
+        padding: 1.5rem 0.8rem !important;
         box-shadow: 0 1px 4px rgba(0,0,0,0.04);
-        padding: 1.2rem 0.8rem;
-        margin-top: 1.2rem;
+        border-radius: 14px;
+    }
+    .contact-content {
+        flex-direction: column !important;
+        align-items: stretch !important;
     }
     .form-group input, .form-group textarea, .form-group select {
         font-size: 1.15rem;
