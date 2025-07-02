@@ -755,17 +755,23 @@ p {
         color: #888;
     }
     .contact-content {
+        display: flex !important;
         flex-direction: column !important;
         align-items: stretch !important;
-        gap: 2.2rem;
-    }
-    .contact-info {
+        gap: 1.5rem !important;
         width: 100% !important;
-        margin-bottom: 0.5rem;
+    }
+    .contact-info, .contact-form {
+        width: 100% !important;
+        display: block !important;
+        box-sizing: border-box;
     }
     .contact-form {
-        width: 100% !important;
-        margin-top: 0 !important;
+        margin-top: 1.5rem !important;
+        background: #fff !important;
+        padding: 1.2rem 0.8rem !important;
+        border-radius: 14px !important;
+        overflow: visible !important;
     }
     .contact-item {
         display: flex;
@@ -799,18 +805,6 @@ p {
         font-size: 0.97rem;
         color: #333;
         margin-bottom: 0;
-    }
-    .contact-form {
-        width: 100% !important;
-        display: block !important;
-        z-index: 1;
-        overflow: visible !important;
-        background: #fff !important;
-        color: #222 !important;
-        margin-top: 1.5rem !important;
-        padding: 1.5rem 0.8rem !important;
-        box-shadow: 0 1px 4px rgba(0,0,0,0.04);
-        border-radius: 14px;
     }
     .form-group input, .form-group textarea, .form-group select {
         font-size: 1.15rem;
