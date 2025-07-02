@@ -671,6 +671,7 @@ p {
         padding: 80px 5px 30px;
         min-height: unset;
         flex-direction: column;
+        margin-top: 70px;
     }
     .hero-content {
         display: flex;
@@ -769,14 +770,22 @@ p {
         margin-bottom: 12px;
     }
     .footer-content {
+        flex-direction: column !important;
+        display: flex !important;
+        align-items: center;
+        text-align: center;
         gap: 1.5rem;
+        padding: 0 0 1.5rem 0;
     }
-    .footer-section h3, .footer-section h4 {
-        font-size: 1.08rem;
-        font-weight: 700;
+    .footer {
+        background: #2c3e50 !important;
+        color: #fff !important;
+    }
+    .footer-section h3, .footer-section h4, .footer-section p, .footer-section ul li a {
+        color: #fff !important;
     }
     .footer-section p, .footer-section ul li a {
-        font-size: 0.93rem;
+        opacity: 0.9;
     }
     .social-links {
         gap: 1.5rem;
